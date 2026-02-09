@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pkl
+
+# Data (don’t upload heavy files)
+data/raw_pdfs/
+data/processed_docs/
+data/vector_store/
+
+# Mac
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# Env
+.env
