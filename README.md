@@ -1,11 +1,8 @@
-User Question
-↓
-Retriever (FAISS Vector DB)
-↓
-Top-K Relevant Chunks
-↓
-Prompt Construction
-↓
-Local LLM (Mistral via Ollama)
-↓
-Answer + Citations
+
+```mermaid
+flowchart LR
+    A[User Question] --> B[Retriever<br/>FAISS Vector DB]
+    B --> C[Relevant Document Chunks]
+    C --> D[Prompt Builder]
+    D --> E[Local LLM<br/>Mistral via Ollama]
+    E --> F[Answer + Citations]
