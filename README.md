@@ -234,3 +234,9 @@ Verify that generated answers:
 - [ ] Reranking models
 - [ ] Conversation memory
 - [ ] Cloud deployment
+
+---
+
+## 📝 License
+
+MIT License
